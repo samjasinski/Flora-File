@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'PlantLetters';
+    src: local('PlantLetters'), url(./fonts/PlantLetters.ttf) format('truetype');
+  }
+
+  .emphasis {
+    color: indianred;
+    font-weight: bolder;
+    font-size: larger;
+  }
+

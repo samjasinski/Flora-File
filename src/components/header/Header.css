@@ -1,0 +1,22 @@
+.header {
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+@keyframes ease-in-colour {
+  0%   {color: black;}
+  50%   {color: indianred;}
+  100%   {color: black;}
+}
+
+  #title {
+    animation: ease-in-colour 10s linear infinite;
+    animation-play-state: paused;
+  }
+
+  #title:hover {
+    animation-play-state: running;
+  }
